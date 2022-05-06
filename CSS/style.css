@@ -1,0 +1,160 @@
+header{
+    background-color: black;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:calc(5vw)
+}
+p{
+    font-family:'Poppins', sans-serif;
+    font-size: 2vw;
+    font-size: 1vmax;
+    color: white;
+    text-shadow: 1px 1px #555555;
+    
+
+    ;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    margin-bottom: 15px;
+}
+a:hover{
+    mix-blend-mode:none;
+    color: rgb(255, 0, 0);
+    font-style: normal;
+}
+img{ 
+    background-color: none;
+}
+nav{
+    display: flex;
+    justify-content: s;
+
+}
+
+.logo{
+    color: aliceblue;
+    height: 34px;
+}
+button{
+    font-size: 16px;
+    height: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    margin: 0 1vw;
+}
+.button-normal{
+    color: black;
+    padding: 0px 20px 0px 20px;
+}
+.button-normal:hover{
+    
+}
+.button-line{
+    align-items: center;
+    background-color: black;
+    border-color: #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 0px 20px 0px 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height:calc(100vh - 70px);
+    background-color: rgb(56, 255, 16)
+
+
+}
+.icono img{
+max-height: 40px
+}
+.section-miperfil{
+    background-color: #969696;
+    background-image: url(https://definicion.de/wp-content/uploads/2010/10/profesional-1.jpg);
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-miperfil:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    display: block;
+}
+.section-conocimiento{
+    background-image:url(https://images.unsplash.com/photo-1522211988038-6fcbb8c12c7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-color: #E6C795;
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-conocimiento:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    display: block;
+}
+.section-experiencia{
+    background-image:url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-color: #4367A1;
+    background-size: cover;
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-experiencia:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    display: block;
+}
+.section-personal{
+    background-color: #A69098;
+    background-image: url(https://lh3.googleusercontent.com/c7rjweOPW1lez1SScYkFQsYEhIgYw6Iio_XQut9RsIotEXwCecSsJwLstdWyy6Cj_QEOoJlw211qpKP-NXg85PynoBRz7nULm-_XoBOcDRvP3TUew7bWFUs1gBkVUYsPuup7De6_t8_Vr5PRSxOlHhK7qIDSTyxGmWRVRv1yNc_2Z4DW3OypaHJs-u2NHm4CIK4Fdlke37g1uvZrZQBEuQij2Vcjamg_1vCETfF02WRk-KGd0aP8fbOtjOVKhJap9-waEradSHAc9DIzFtwGb8DJA_40u_ex0EZHa7tRA51ATNkAY84u3jH7D5Vga3KgEN5sJGcuwzOqx9miopoGytSWhoBoItr3a-atUCqzjDFXMwcLgmUvPEtK_WGMyVzNDyjcsf2oN3Jb0MwBPoK2f4UH8SZX7p5M-rjk_H_Z83mDiEiX710dAJc8gXMaPq_o6N80GJeshGNzR9XV4avNgd5NJ9qboHK52e-mMEyMllKl9qkRyTR7-WGS1TRn8fIYW3QZKuJ3b0opVo2kkIsKtde2rkQH7QreV8Vsa4CLAjFkzOngXW4Fa75UObTyg7BDqLTe-QP6qzO0diptP0TAtVt01YW66-eAGJM5-3ncJx8YHFcnTKRvF_-wFPgvefEyEH7E-pBNn6YQ6Ltf9noVdolBvOD8XZNP4Fu0Rh_We0fUSe-QmwIgZ1usxZlC_OQpT1QbFseO6Gzn2BcfmCHpdN83aV3oLQLjCttExYyiPKGqAKJ-JsvUu6lChfXAooXYnn8mBjNuXNUjkVQ0NPD2eGwaCq2rs4KLuJ4=w1551-h872-no?authuser=0);
+    background-size: cover;
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-personal:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    display: block;
+}
+.section-random{
+    background-image: url("../images/ux.jpg");
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-random:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;
+    display: block;
+}
+.section-contacto{
+    background-image: url(https://www.simival.com/wp-content/uploads/2020/02/Reparacion-de-porteros-automaticos-Valencia.jpg);
+    width: calc(100%/3);
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.section-contacto:hover{
+    opacity: 0.8;
+    mix-blend-mode: exclusion;  
+    display: block;
+}
